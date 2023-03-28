@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virat Kohli Runs Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<h1>Virat Kohli ODI Runs Prediction</h1>
+<div class ></div>
+<form class="form">
+	<h2>Balls_Faced</h2>
+    <input class="tab"  type="text" id="uiBF" class="floatLabel" name="Balls_Faced" value="">
+   
+	<h2>Fours</h2>
+	<input class="tab"  type="text" id="uiF" class="floatLabel"  value="">
+
+	<h2>Sixes</h2>
+	<input class="tab"  type="text" id="uiS" class="floatLabel"  value="">
+	</form>
+
+<form class="form">	
+		<h2>Teams</h2>
+	<div>
+  <select class="teams" name="" id="uiteams">
+    <option value="" disabled="disabled" selected="selected">Choose a team</option>
+		<option>australia</option>
+        <option>bangladesh</option>
+  </select>
+</div>
+	<button class="submit" onclick="onClickedEstimateRuns()" type="button">Estimate Runs</button>
+	<div id="uiEstimatedRuns" class="result">	<h2></h2> </div>
+</body>
+</html>
