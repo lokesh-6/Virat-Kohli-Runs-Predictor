@@ -16,7 +16,7 @@ The model is built using linear regression, which is a simple and effective mach
 
 How to use:
 
-To use the model, simply clone the repository and run the server.py file. This will prompt the user to enter various inputs such as the venue, opposition team, batting position, etc. Based on these inputs, the model will predict the number of runs Virat Kohli is likely to score in the match.
+To use the model, simply clone the repository and run the server.py filei in server folder. This will prompt the user to enter various inputs such as the venue, opposition team, batting position, etc. Based on these inputs, the model will predict the number of runs Virat Kohli is likely to score in the match.
 
 Contributing:
 
